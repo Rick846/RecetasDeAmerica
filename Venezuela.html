@@ -1,0 +1,180 @@
+<html>
+<head>
+<title>Recetas Venezuela</title>
+<style>
+    body {background-color: #F1E9D2;}
+    .titlecolor1 {color: yellow;}
+    .titlecolor2 {color: blue;}
+    .titlecolor3 {color: red;}
+    .back {border: 5px solid black;
+    width: 45px;
+    border-radius: 3px;
+    padding: 3px;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.3) ;
+    }
+    .barra {
+    border: 5px solid black;
+    width: 60px;
+    position:absolute;
+    left: 75px;
+    top: 8px;
+    border-radius: 3px;
+    padding: 9px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.3) ;
+    }
+    .imagenreceta {
+    border-radius: 67px;
+    }
+    .arepassection {
+    background-image: url(texturacuadros.jpg);
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 3px;
+    }
+    .division{
+    display: flex;
+    flex-direction: row;
+    }
+    .division2{
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+    }
+    .organizacióncolumnas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    }
+    .organizacióncolumnas2{
+    display: flex;
+    flex-direction: column;
+    gap: 1px
+    }
+
+    .ingredientescolumna1 {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    gap: 20px;
+
+    }
+
+    .diferenciateingredientspino {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 8px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    .diferenciateingredientspastel {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 8px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+    
+    }
+    .diferenciateingredients2 {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 8px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 10px;
+    width: 360px;
+
+    
+    }
+    .diferenciatepreparation {
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 8px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 10px;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+    }
+    table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    }
+</style>
+</head>
+<body>
+<header>
+<a href="Menú.html"><img src="Back.png" width="40" alt="Ir al Menú" class="back"></a> 
+<div class="barra">
+<img src="BanderaVenezuela.png" width="60" alt="Venezuela">
+</div>
+<h1>Recetas <span class="titlecolor1">Vene</span><span class="titlecolor2">zola</span><span class="titlecolor3">nas</span></h1>
+<p>Bienvenido/a a la página de recetas venezolas, aquí encontrarás una variedad de recetas de la zona, con sus ingredientes y preparación</p>
+</header>
+<hr>
+<main>
+    <section class="arepassection">
+        <h2>Arepas</h2>
+        <img src="Arepas.jpg" width="300" alt="Arepas">
+        <h4>Ingredientes</h4>
+        <ul>
+            <li>400 gramos de harina de maíz
+            <li>375 ml de agua
+            <li>250 ml de leche (Se puede sustituir por agua)
+            <li>1 cucharadita de sal
+            <li>1 cucharadita de mantequilla derretida (opcional)
+            <li>Aceite para engrasar la sartén</li>
+        </ul>
+        <h4>Preparación</h4>
+        <ol>
+            <li>Pesar los ingredientes y ponerlos en un bol. Amasar  bien hasta formar una masa que no se pegue. La dejamos reposar unos 10 minutos.</li>
+            <li>Saldrá como un kilo de masa, por ello es recomendable hacer arepas medianas de unos 100 gramos. Hacemos una bola y las aplanamos para formar las arepas.</li>
+            <li>Las dejamos reposar en un paño húmedo para que no se sequen.</li>
+            <li>En una sartén untamos un poco de aceite y las cocinamos unos 5-6 minutos por cada lado, hasta que se forme una costra.</li>
+            <li>Una vez hechas, las abrimos y las rellenamos con lo que más nos guste.</li>
+        </ol>
+        <h4>Video alternativo demostrativo<h4>
+        <video controls width="600">
+        <source src="Arepas.mp4">
+        </video>
+        <h4>Audioreceta alternativa</h4>
+        <audio controls>
+        <source src="AudioArepas.mp3">
+        </audio>
+    </section>
+</main>
+<hr>
+<h3>Más próximamente, tales como:<h3>
+<table>
+<tr>
+<th>Norte</th>
+<th>Centro</th>
+<th>Sur</th>
+</tr>
+<tr>
+<td>Pescado frito con tostones y ensalada</td>
+<td>Pabellón Criollo</td>
+<td>Arepa Andina</td>
+</tr>
+<tr>
+<td>Patacón Zuiliano</td>
+<td>Polvorosa de Pollo</td>
+<td>Pizca Andina</td>
+</tr>
+<td>Empanadas de cazón</td>
+<td>Bollitos pelones</td>
+<td>Carne en vara</td>
+</tr>
+</body>
+</html>

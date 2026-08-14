@@ -1,0 +1,167 @@
+<html>
+<meta charset="UTF-8">
+<head>
+<title>Menú</title>
+<style>
+    body {background-color: #F1E9D2;
+    }
+    a {transition: color 0.3s ease;}
+    a:link {color: peru;}
+    a:visited {color: peru}
+    a:hover {color: green}
+    a:active {color: greenyellow}
+    .Contacto {background-color:#FFF176;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0px 5px 10px 1px rgba(230, 187, 109, 0.7);
+    }
+    .organizacion {
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    justify-content: center;
+    }
+    .seccion {
+    display: flex;
+    flex-direction: column;
+    }
+    .seccionhder {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    }
+    .miniseccion {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    }
+    .miniminiseccion {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    }
+    .lista {
+    display: flex;
+    justify-content: left;
+    }
+    .home {border: 5px solid black;
+    width: 45px;
+    height: 45px;
+    border-radius: 3px;
+    padding: 3px;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.3) ;
+    }
+    .barra {
+    border: 5px solid black;
+    width: 189px;
+    height: 44px;
+    border-radius: 3px;
+    padding: 3px;
+    padding-top: 5px;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.3) ;
+    }
+    .descripcion {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+    .Titulo {
+    display: flex;
+    justify-content: center;
+    }
+    .Importante {
+    color: red;
+    }
+
+</style>
+</head>
+<body>
+<header>
+    <div class="seccionhder">    
+        <div class="miniseccion">
+            <div class="miniminiseccion">
+                <div class="home">
+                    <img src="Home.png" width="45px" alt="Menú">
+                </div>
+                <div class="barra">
+                    <img src="BanderaChile.jpg" width="60px" alt="Chile">
+                    <img src="BanderaArgentina.png" width="60px" alt="Argentina">
+                    <img src="BanderaVenezuela.png" width="60px" alt="Venezuela">
+                </div>
+            </div>
+        </div>
+        <div class="Titulo">
+            <h1>Recetas de América</h1>
+        </div>
+        <div class="descripcion">
+            <p>Bienvenido/a a mi página de recetas, aquí compartiré una serie de recetas proveniente de toda américa, desde el norte hasta el sur.<br>
+            Cabe recalcar que esta página está en etapa temprana y sólamente llevo pocas páginas dedicadas a las recetas de sus países correspondientes.<br>
+            <span class="Importante">Habían antes 3 páginas de recetas pero estoy teniendo problemas con ellas. Eventualmente las pondré de vuelta.</span></p>
+        </div>
+    </div>
+</header>
+<hr>
+<main>
+    <nav>
+        <div class="organizacion">
+            <div class="seccion">
+                <h2>Norteamérica</h2>  
+                <div class="lista">
+                    <ul>
+                        <li>Canadá</li>
+                        <li>Estados Unidos</li>
+                        <li>México</li>
+                    </ul>
+                </div> 
+            </div>
+            <div class="seccion">
+                <h2>Centroamérica</h2> 
+                <div class="lista">
+                    <ul>
+                        <li>Belice</li>
+                        <li>Costa Rica</li>
+                        <li>El Salvador</li>
+                        <li>Guatemala</li>
+                        <li>Honduras</li>
+                        <li>Nicaragua</li>
+                        <li>Panamá</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="seccion">
+                <h2>Sudamérica</h2>
+                <div class="lista">
+                    <ul>               
+                        <li><a href="Argentina.htmlROTO"><span class="Importante">Argentina</span></a></li>
+                        <li>Bolivia</li>
+                        <li>Brasil</li>
+                        <li><a href="Chile.htmlROTO"><span class="Importante">Chile</span></a></li>
+                        <li>Colombia</li>
+                        <li>Ecuador</li>
+                        <li>Guyana</li>
+                        <li>Perú</li>
+                        <li>Surinam</li>
+                        <li>Uruguay</li>
+                        <li><a href="Venezuela.htmlROTO"><span class="Importante">Venezuela</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</main>
+<hr>
+<aside>
+    <p class="Contacto"> Si deseas ayudar a construir esta recopilación o deseas ser notificado cuando se actualice la página, haz clic: <a href="Contacto.html">Aquí</a></p>
+</aside>
+<footer>
+    <p>© 2026 RecetasDeAmerica. Todos los derechos reservados.</p>
+    <p>Las imágenes, textos y contenidos ajenos pertenecen a sus respectivos autores y son utilizados bajo un propósito informativo/educativo</p>
+    <p>Contacto de eliminación <a href="DMCA.html" target="_blank" class="DMCA">DMCA</a></p>
+</footer>
+<div class="flora">
+</div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<html>
+<meta charset="UTF-8">
+<head>
+<title>Contacto</title>
+<style>
+    body {background-color: #F1E9D2;}
+    button {transition: color 0.3s ease}
+    button:hover {background-color: green; color: whitesmoke}
+    button:active {background-color: greenyellow; color: white}
+    .Aporte {border: 3px solid black;
+    background-color: rgba(248, 252, 0, 0.1);
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    }
+    button {background-color: #baeeb3;
+    font-size: 15px;}
+    .Notificación {border: 3px solid black;
+    background-color: rgba(248, 252, 0, 0.1);
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    }
+    button {background-color: #d8d8d8;
+    font-size: 15px;}
+    .back {border: 5px solid black;
+    width: 45px;
+    border-radius: 3px;
+    padding: 3px;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.3) ;
+    }
+    .barra {
+    border: 5px solid black;
+    width: 40px;
+    position:absolute;
+    left: 75px;
+    top: 8px;
+    border-radius: 3px;
+    padding: 9px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.3) ;
+    }
+</style>
+</head>
+<body>
+<header>
+<a href="Menú.html"><img src="Back.png" width="40" alt="Ir al Menú" class="back"></a>
+<img src="Info.png" width="40" alt="Info" class="barra">
+<h1>Contacto</h1>
+<p>Aquí podrás encontrar diversas formas de contacto</p>
+</header>
+<hr>
+<main>
+    <section>
+        <h3>Aporte</h3>
+        <p>Contáctame para compartir recetas y ayudar a expandir la página!</p>
+        <form class="Aporte">
+        Correo: <br>
+        <input required type="email"><br>
+        Que tipo de aporte realizarás: <br>
+        <select required>
+        <option type="" disabled selected hidden></option>
+        <option>Receta</option>
+        <option>Datos/redacción erróneos</option>
+        <option>Página no funcionando correctamente</option>
+        <option>Otro</option>
+        </select><br>
+        Detalla qué sucede: <br><textarea required cols="60" rows="20">
+        </textarea>
+        <br>
+        Acepto los términos de uso:<input required type="checkbox">
+        <br>
+        <button>
+        Enviar
+        </button>
+        </form>
+    </section>
+<hr>
+    <section>
+        <h3>Notifícame</h3>
+        <p>Ingresa tus datos para avisarte de las recetas que se están añadiendo</p>
+        <form class="Notificación">
+        Correo: <br>
+        <input required type="email"><br>
+        Género: <br>
+        <select required>
+        <option type="" disabled selected hidden></option>
+        <option>Masculino</option>
+        <option>Femenino</option>
+        <option>Otro</option>
+        <option>Prefiero no decirlo</option>
+        </select>
+        <br>
+        Acepto los términos de uso:<input required type="checkbox">
+        <br>
+        <button>
+        Enviar
+        </button>
+        </form>
+    </section>
+</main>
+</body>
+</html>

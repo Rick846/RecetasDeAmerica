@@ -1,0 +1,317 @@
+<html>
+<meta charset="UTF-8">
+<head>
+<title>Recetas Chile</title>
+<style>
+    body {background-color: #F1E9D2;}
+    .titlecolor1 {color: blue;}
+    .titlecolor2 {color: white;}
+    .titlecolor3 {color: red;}
+    .back {border: 5px solid black;
+    width: 45px;
+    border-radius: 3px;
+    padding: 3px;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.3) ;
+    }
+    .barra {
+    border: 5px solid black;
+    width: 60px;
+
+    border-radius: 3px;
+    padding: 9px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.3) ;
+    }
+    .imagenreceta {
+    border-radius: 67px;
+    }
+    .pasteldechoclosection {
+    background-image: url(texturacuadros.jpg);
+    padding: 10px;
+    color: whitesmoke;
+    border-radius: 3px;
+    }
+    .division{
+    display: flex;
+    flex-direction: row;
+    }
+    .division2{
+    display: flex;
+    flex-direction: row;
+    gap: 180px;
+    }
+    .organizacióncolumnas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    .organizacióncolumnas2{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    }
+
+    .ingredientescolumna1 {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    gap: 20px;
+
+    }
+
+    .diferenciateingredientspino {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 8px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    
+    }
+    
+    .diferenciateingredientspastel {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 8px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    }
+    .diferenciateingredients2 {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 8px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 10px;
+    width: 360px;
+
+    
+    }
+    .diferenciatepreparation {
+    width: 600px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-left: 8px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border-radius: 10px;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    }
+
+    table, th, td {
+    border: 1px solid aliceblue;
+    text-align: center;
+    padding: 1px;
+    }
+    table {
+    background-color: rgba(177, 131, 33, 0.5);
+    }
+    th, td {
+    color: aliceblue;
+    padding: 3px;
+    }
+    .ORGANIZACION4 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    }
+    .Proximamente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    @media (max-width: 700px) {
+        .division, .division2, .ingredientescolumna1 {
+            flex-direction: column !important;
+            width: 100% !important;
+            gap: 20px !important;
+        }
+
+        .imagenreceta {
+        padding-bottom: 30px;
+        }
+
+        .diferenciateingredientspino, 
+        .diferenciateingredientspastel, 
+        .diferenciateingredients2, 
+        .diferenciatepreparation {
+            width: 100% !important;
+            box-sizing: border-box;
+        }
+        img, video {
+            max-width: 100% !important;
+            height: auto !important;
+        }
+    }
+
+    @media (min-width:701px) and (max-width: 1200px) {
+
+        .division, .division2 {
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        .imagenreceta {
+        padding-bottom: 30px;
+        }
+        
+        .division, .division2, .ingredientescolumna1 {
+            flex-direction: column !important;
+            width: 100% !important;
+            gap: 20px !important;
+        }
+
+        .diferenciateingredientspino, 
+        .diferenciateingredientspastel, 
+        .diferenciateingredients2, 
+        .diferenciatepreparation {
+            width: 100% !important;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        img, video {
+            max-width: 100% !important;
+            height: auto !important;
+        }
+    }
+</style>
+</head>
+<body>
+<header>
+    <div class="ORGANIZACION4">
+        <a href="Menú.html"><img src="Back.png" width="40px" alt="Ir al Menú" class="back"></a>
+        <div class="barra">
+            <img src="BanderaChile.jpg" width="60px" alt="Chile">
+        </div>
+    </div>
+    <h1>Recetas <span class="Titlecolor1">Chi</span><span class="Titlecolor2">le</span><span class="Titlecolor3">nas</span></h1>
+    <p>Bienvenido/a a la página de recetas chilenas, aquí encontrarás una variedad de recetas de la zona, con sus ingredientes y preparación</p>
+</header>
+<hr>
+<main>
+    <section class="Pasteldechoclosection">
+        <h2>Pastel de Choclo</h2>
+        <h4>Ingredientes</h4>
+        <div class="division">
+            <div>
+                <div class="organizacióncolumnas">
+                    <div class="ingredientescolumna1">
+                        <div class="diferenciateingredientspino">
+                            <h4>Para el pino: </h4>
+                                <ul>
+                                    <li>1 cda de aceite</li>
+                                    <li>2 cebolla en cuadrados pequeños</li>
+                                    <li>500 g de carne picada (posta negra)</li>
+                                    <li>1 cdta de Comino Molido</li>
+                                    <li>1 cdta de Ají Color</li>
+                                    <li>1 cda de Orégano Entero</li>
+                                    <li>1 cdta de Condimento para Carne</li>
+                                    <li>½ tz de pasas</li>
+                                    <li>6 trutro cortos sin piel, cocidos doraditos y jugosos</li>
+                                    <li>3 huevos duros, cortados por la mitad</li>
+                                    <li>½ tz de aceitunas negras</li>
+                                </ul>
+                        </div><br>
+                        <div class="diferenciateingredientspastel">
+                            <h4>Para el pastel: </h4>
+                                <ul>
+                                    <li>10 a 12 choclos pasteleros</li>
+                                    <li>1 cdta de Albahaca</li>
+                                    <li>1 cda de mantequilla</li>
+                                    <li>¾ tz de leche</li>
+                                    <li>1 cdta de sal</li>
+                                    <li>5 hojas de albahaca, picadas</li>
+                                </ul>
+                        </div><br>
+                    </div>
+                    <div class="ingredientescolumna2">
+                            <div class="diferenciateingredients2">
+                            <h4>Para cubrir: </h4>
+                            <ul>
+                                <li>2 cdas de azúcar</li>
+                            </ul>
+                            </div><br>
+                    </div>
+                </div>
+            </div>
+            <div>
+            <img src="PastelDeChoclo.webp" width="700px" alt="Pastel de Choclo" class="imagenreceta">
+            </div>
+        </div>
+        <div class="division2">
+            <div class="diferenciatepreparation">
+                <h4>Preparación</h4>
+                <ol>
+                    <li>Calienta el aceite en un sartén grande y agrega la cebolla picada. Cocina hasta que esté transparente y blanda.</li>
+                    <li>Incorpora la carne picada y los aliños, y cocina hasta que la carne esté bien cocida. El pino debe quedar jugoso. Agrega las pasas y reserva.</li>
+                    <li>Para la capa de choclo, saca los granos de la coronta y procésalos junto con la albahaca deshidratada hasta obtener una pasta.</li>
+                    <li>Calienta la mantequilla en una olla, agrega la pasta de choclo y cocina por un par de minutos.</li>
+                    <li>Incorpora la leche y cocina, revolviendo constantemente, hasta obtener una mezcla espesa. Condimenta con sal y albahaca picada.</li>
+                    <li>Divide el pino en 6 fuentes individuales (levemente enmantequilladas) o en una fuente de greda grande.</li>
+                    <li>En cada una, agrega 2 aceitunas, ½ huevo duro y una presa de pollo.</li>
+                    <li>Cubre con la pasta de choclo y espolvorea azúcar sobre cada pastel.</li>
+                    <li>Precalienta el horno a 190 °C.</li>
+                    <li>Hornea por 30 a 35 minutos, o hasta que estén burbujeando y la superficie esté dorada.</li>
+                </ol>
+            </div>
+            <div class="organizacióncolumnas2">
+                <h4>Video alternativo demostrativo<h4>
+                <div>
+                    <iframe 
+                    src="https://www.youtube.com/watch?v=75el7a9_HaQ" 
+                    title="Video de YouTube" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <h4>Audioreceta alternativa</h4>
+        <audio controls>
+        <source src="AudioPastel.mp3">
+        </audio>
+    </section>
+</main>
+<hr>
+<div class="Proximamente">
+    <div>
+        <h3>Más próximamente, tales como:<h3>
+    </div>
+    <div>
+        <table>
+        <tr>
+        <th>Norte</th>
+        <th>Centro</th>
+        <th>Sur</th>
+        </tr>
+        <tr>
+        <td>Calapurca</td>
+        <td>Pastel de Choclo</td>
+        <td>Curanto en Hoyo</td>
+        </tr>
+        <tr>
+        <td>Chairo</td>
+        <td>Porotos con Riendas</td>
+        <td>Caldillo de Congrio</td>
+        </tr>
+        <td>Picante de Guata</td>
+        <td>Cazuela</td>
+        <td>Milcao</td>
+        </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
